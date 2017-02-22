@@ -1,12 +1,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %2345678901234567890123456789012345678901234567890123456789012345678901234567890
 %        1         2         3         4         5         6         7         8
-%% doc.tex
+%% main.tex
 %% V1.0
 %% 2017/02/22
 %% by Francisco Maria Calisto
 %% based on a template created by Rob Oakes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \documentclass[a4paper,12pt]{texDoc}
 % --> Please Choose the MAIN LANGUAGE for the document in package BABEL
 % --> by replacing "main=" in language name selector. Default is "main=english"
@@ -17,24 +18,46 @@
 \usepackage{parskip}
 \setlength{\parindent}{15pt}
 \logo{\includegraphics[width=0.3\textwidth]{IST_A_RGB_POS.png}} % Logo
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	MEMO INFORMATION --> Write your info in the following tags.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \docfrom{Francisco Maria Calisto} % Sender(s) Name
 \docid{ist170916} % Student ID
 \doccourse{AE 2016/2017} % Course Name, or abbreviated acronym
 \docsubject{Problem Sheet \# 1} % Subject
 \docdate{\today} % Date, -> set to \today for automatically print todays date
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 \maketitle % Print the doc header information
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	LETTER CONTENT --> Your content is written here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Question 1}
 
+a) A representative enterprise architecture should be defined \cite{eaFundamentals} by three layers:
+
+- Business: it offers services to customers through products, where the services are realized by business processes that use the informational entities of the organization and run by business actors.
+
+- Application: supports the level of business with application services realized in application components.
+
+- Technological: provides infrastructure services, like processing, storage and communication, to the application layer and it is where also the services are realized by software, machines and computer devices.
+
 \section*{Question 2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	DOCUMENT BIBLIOGRAPHY --> Your bibliography is written here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{9}
+\bibitem{eaFundamentals}  Enterprise Architecture Fundamentals. Available from World Wide Web: (AE\_fundamentals\_Fev\_2017\_v0\_8.pdf).
+\end{thebibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
